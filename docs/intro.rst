@@ -1,7 +1,12 @@
 Introduction
 ============
 
-This class is about building software, documentation, and websites with Python. As such, the first lesson is about how this documentation was created using the following tools:
+This class is about building **software**, **documentation**, and **websites** with **Python** and **Plone**.
+
+Getting started
+---------------
+
+As such, the first lesson is about how this **documentation** was created using the following tools:
 
 * `Python`_
 * `virtualenv`_

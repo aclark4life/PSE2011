@@ -8,7 +8,7 @@ Workflow
 --------
 
 * Doing what you like to do and knowing how to do it well
-* Working on a team where your contributions are helpful and appreciated
+* Working on a team where your contributions are valuable
 * Knowing what to do when trouble arises
 
 Tools
@@ -18,23 +18,26 @@ Tools
 * `virtualenv`_
 * `zc.buildout`_
 * `Sphinx`_
+
+And one more:
+
 * `Git`_
 
 Process
 -------
 
 * Create development area
-* Develop software and/or documentation
-* Commit your changes
-* Deploy the results
+* Develop software/documentation
+* Commit changes
+* Deploy results
 
 Details
 -------
 
 This documentation was created via the following commands::
 
-    $ git clone git@github.com:ACLARKNET/PSE2011.git
-    $ virtualenv PSE2011
+    $ git clone git@github.com:ACLARKNET/PSE2011.git    # create development area
+    $ virtualenv PSE2011                                
     $ cd PSE2011
     $ bin/easy_install zc.buildout
     $ bin/buildout init
@@ -42,21 +45,21 @@ This documentation was created via the following commands::
 At this point, ``buildout.cfg`` was edited to look like this::
 
     [buildout]
-    extends = http://dist.aclark.net/build/plone/4.1.x/develop.cfg
+    extends = http://dist.aclark.net/build/plone/4.1.x/develop.cfg      # add plone
     parts += sphinx
 
-    [sphinx]
+    [sphinx]                                                            # add sphinx
     recipe = zc.recipe.egg
 
 And then::
 
-    $ bin/buildout
-    $ bin/sphinx-quickstart
+    $ bin/buildout                                                      # get/configure software
+    $ bin/sphinx-quickstart                                             # create documentation
     $ cd docs
 
 At this point a Sphinx project exists and we can add and edit documentation using reStructured text. The next thing to do is to commit changes::
 
-    $ git add <files>
+    $ git add <files>                                                   # save work
     $ git commit -a
     $ git push
 
