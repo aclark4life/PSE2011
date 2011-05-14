@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'PSE2011 Class'
-copyright = u'2011, ACLARK.NET, LLC. All rights reserved. Plone® is a registered trademark of the Plone Foundation.'
+copyright = u'2011, ACLARK.NET, LLC. All rights reserved. Plone® is a registered trademark of the Plone Foundation'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
