@@ -1,3 +1,46 @@
 
 Lesson #1: This documentation
 =============================
+
+A lot of "Plone Site Administration" i.e. "Getting your work done, so you can make a living and be happy" is about workflow. Humans generally like to feel comfortable with tasks they are responsible for in life, and the author is no exception.
+
+Workflow
+--------
+
+* Doing what you like to do and knowing how to do it well
+* Working on a team where your contributions are helpful and appreciated
+* Knowing what to do when trouble arises
+
+Tools
+-----
+
+* `Python`_
+* `virtualenv`_
+* `zc.buildout`_
+* `Sphinx`_
+* `Git`_
+
+Process
+-------
+
+* Create development area
+* Develop
+* Commit
+* Deploy
+
+
+Details
+-------
+
+
+
+
+
+
+
+
+.. _`Python`: http://python.org
+.. _`virtualenv`: http://pypi.python.org/pypi/virtualenv
+.. _`zc.buildout`: http://pypi.python.org/pypi/zc.buildout/1.5.2
+.. _`Sphinx`: http://pypi.python.org/pypi/Sphinx
+.. _`Git`: http://git-scm.com/
