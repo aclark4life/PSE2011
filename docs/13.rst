@@ -78,6 +78,8 @@ And the important parts are::
     eggs = ${plone:eggs}
     zeo-address = ${ports:zeo}
 
+    …
+
 Takeaway
 --------
 
