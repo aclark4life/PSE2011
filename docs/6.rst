@@ -47,3 +47,8 @@ The majority of functionality is configured via the ``plone.recipe.zope2instance
 
 Everything else is just details.
 
+Takeaway
+--------
+
+* The majority of Plone installation is handled by the ``plone.recipe.zope2instance`` recipe section which configures a Zope2 instance with Plone installed in it.
+
