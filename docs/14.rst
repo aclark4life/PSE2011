@@ -1,5 +1,7 @@
 
+Lesson #14: Re-add add-ons
+==========================
 
-Lesson #14
-==========
+Since we've switched to using ZEO, let's now add back the sum of all our previous examples.
+
 
