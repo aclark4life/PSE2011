@@ -4,4 +4,30 @@ Lesson #14: Re-add add-ons
 
 Since we've switched to using ZEO, let's now add back the sum of all our previous examples.
 
+In ../14.cfg we have::
+
+    [buildout]
+    extends = 
+        http://dist.aclark.net/build/plone/4.1.x/zeo.cfg 
+        http://good-py.appspot.com/release/dexterity/1.0rc1
+    parts += sphinx
+
+    [plone]
+    eggs += 
+        Products.PloneFormGen
+        plone.app.dexterity
+        plone.app.theming
+
+    [sphinx]
+    recipe = zc.recipe.egg
+
+So we now have a "production" setup plus add-ons: PFG, Dexterity, and Diazo (p.a.theming).
+
+Takeaway
+--------
+
+* Configurations can be assembled in a variety of ways, do what is most comfortable for you.
+
+* The installers provide easy access to both standalone and ZEO configurations.
+
 
