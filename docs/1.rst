@@ -23,6 +23,14 @@ And one more:
 
 * `Git`_
 
+Or:
+
+* Mercurial
+* Bazaar
+* Subversion
+* CVS
+* And so on…
+
 Process
 -------
 
