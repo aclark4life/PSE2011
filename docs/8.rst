@@ -27,7 +27,7 @@ The latter (five.grok) is a technology that other technologies (like Dexterity) 
 
 In some cases though (i.e. when add-ons do not ask z3c.autoinclude to autoload their ZCML), it means you must configure the ``zcml`` parameter in the ``plone.recipe.zope2instance`` section for whatever add-on you want to use that does not take advantage of ``z3c.autoinclude``.
 
-While we are on the subject of technologies you may come across but shouldn't worry too much about if they confuse you, let's cover an important "technologies". 
+While we are on the subject of technologies you may come across but shouldn't worry too much about if they confuse you, let's cover an important "legacy" technology.
 
 Old style products
 ------------------
