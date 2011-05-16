@@ -16,7 +16,7 @@ Zope configuration markup language. E.g.::
 What does this mean
 ~~~~~~~~~~~~~~~~~~~
 
-In most cases, for end users, nothing. While ZCML configuration is something you should understand the basics of, there are other technologies that are designed specifically to save you from having to understand it. They are:
+In most cases, for end users, nothing. While ZCML configuration is something you should understand the basics of, there are other technologies that are designed specifically to save you from having to understand ZCML in detail. They are:
 
 * Mainly z3c.autoinclude.
 * And to some extent, five.grok (Grok integration layer for Plone)[2]_.
