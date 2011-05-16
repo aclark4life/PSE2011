@@ -53,4 +53,4 @@ Takeaway
     * -= — Subtract the following values from the existing parameter values
     * <= — "extends" one section with the parameters from another [1]_.
 
-.. [1]:  See: http://svn.plone.org/svn/plone/plone.org/Products.PloneOrg/trunk/conf/production.cfg
+.. [1] See: http://svn.plone.org/svn/plone/plone.org/Products.PloneOrg/trunk/conf/production.cfg
