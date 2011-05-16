@@ -48,3 +48,7 @@ Sections and parameters
 
 That's fine. But what are sections and parameters?
 
+Takeway
+-------
+
+* Another major feature of zc.buildout is the ability to separate build tasks into isolated sections called *parts*.

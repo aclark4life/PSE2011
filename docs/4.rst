@@ -27,3 +27,10 @@ Parts parameter values are other parts e.g.::
 
     [buildout]
     parts = a b c
+
+Takeaway
+--------
+
+* A third major feature of zc.buildout is that it allows you to use Windows INI style configuration file syntax.
+
+Enough syntax and feature descriptions! On to some real work.

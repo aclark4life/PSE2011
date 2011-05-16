@@ -879,4 +879,7 @@ At this point, we know that our "little" configuration file is actual a big one 
     recipe= zc.recipe.egg
         http://dist.aclark.net/build/plone/4.1.x/develop.cfg
 
+Takeaway
+--------
 
+* One major feature of zc.buildout is the ability to extend configuration files
