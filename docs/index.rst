@@ -14,6 +14,7 @@ Contents:
    intro
    1
    2
+   3
 
 
 Indices and tables
