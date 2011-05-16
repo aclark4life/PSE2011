@@ -53,7 +53,7 @@ But zc.buildout happily accepts ad hoc sections and parameters, e.g.::
 References
 ----------
 
-But what good are these references if zc.buildout doesn't use or require them?
+But what good are these references if zc.buildout doesn't use or require them? We'll cover that in the next section.
 
 Takeaway
 --------
