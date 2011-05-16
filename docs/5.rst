@@ -1,6 +1,6 @@
 
-Lesson #5: variable reference syntax
-====================================
+Lesson #5: zc.buildout variable reference syntax
+================================================
 
 Yet another major feature of zc.buildout is the ability to self-reference configuration parameter values. In other words, you can configure the value of one parameter with the value of another::
 

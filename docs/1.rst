@@ -1,6 +1,6 @@
 
-Lesson #1: This documentation
-=============================
+Lesson #1: Sphinx documentation
+===============================
 
 A lot of "Plone Site Administration" (i.e. "Getting your work done, so you can make a living and be happy") is about **workflow**. Humans like to feel comfortable with the tasks they are responsible for, and the author is no exception.
 
