@@ -49,8 +49,8 @@ Takeaway
 
 * A minor feature of zc.buildout is the "+=" and "-=" (and >=) syntax that allow you to manipulate the contents of sections:
 
-    * += — Add the following parameter values to the existing parameter values
-    * -= — Subtract the following values from the existing parameter values
-    * <= — "extends" one section with the parameters from another [1]_.
+ * ``+=`` — Add the following parameter values to the existing parameter values
+ * ``-=`` — Subtract the following values from the existing parameter values
+ * ``<=`` — "extends" one section with the parameters from another [1]_.
 
 .. [1] See: http://svn.plone.org/svn/plone/plone.org/Products.PloneOrg/trunk/conf/production.cfg
