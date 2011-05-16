@@ -1,8 +1,8 @@
 
-Lesson #8: The ugly truth: ZCML, old style products, and the rest
-=================================================================
+Lesson #8: The inconvenient truth: ZCML, old style products, and the rest
+=========================================================================
 
-The ugly truth behind Lesson #7 is that there is more to the story. Namely, that of ZCML configuration. As of version 2.5 or so, Plone is a "Zope 3 application" (meaning that it uses technologies developed under the now defunct Zope 3 project) [1]_.
+The inconvenient truth behind Lesson #7 is that there is more to the story. Namely, that of ZCML configuration. As of version 2.5 or so, Plone is a "Zope 3 application" (meaning that it uses technologies developed under the now defunct Zope 3 project) [1]_.
 
 ZCML
 ----
