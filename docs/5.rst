@@ -1,0 +1,38 @@
+
+Lesson #5: variable reference syntax
+====================================
+
+Yet another major feature of zc.buildout is the ability to self-reference configuration parameter values. In other words, you can configure the value of one parameter with the value of another::
+
+    [foo]
+    bar = ${baz:bar}
+
+    [baz]
+    bar = quux
+
+So the value foo:bar is quux.
+
+Eggs
+----
+
+One of the most common examples of this feature in use is *instance:eggs*::
+
+
+    [buildout]
+    …
+    eggs = Plone
+
+    [instance]
+    recipe = plone.recipe.zope2instance
+    eggs = ${buildout:eggs}
+
+Takeaway
+--------
+
+Yet another major zc.buildout feature is variable substitution.
+
+
+Real work
+---------
+
+But enough about zc.buildout syntax and features! Now on to some real work.
