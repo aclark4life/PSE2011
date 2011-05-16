@@ -50,14 +50,14 @@ But zc.buildout happily accepts ad hoc sections and parameters, e.g.::
     [hosts]
     localhost = 127.0.0.1
 
+References
+----------
+
+But what good are these references if zc.buildout doesn't use or require them?
+
 Takeaway
 --------
 
 * A third major feature of zc.buildout is that it allows you to use Windows INI style configuration file syntax.
 * Understanding zc.buildout means understanding the nuances of writing and executing various configurations.
-
-References
-----------
-
-But what good are these references if zc.buildout doesn't use or require them?
 
