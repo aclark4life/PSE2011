@@ -26,13 +26,13 @@ One of the most common examples of this feature in use is *instance:eggs*::
     recipe = plone.recipe.zope2instance
     eggs = ${buildout:eggs}
 
-Takeaway
---------
-
-Yet another major zc.buildout feature is variable substitution.
-
 Real work
 ---------
 
 But enough about zc.buildout syntax and features! Now on to some real work.
+
+Takeaway
+--------
+
+Yet another major zc.buildout feature is variable substitution.
 
