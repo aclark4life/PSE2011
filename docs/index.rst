@@ -13,6 +13,7 @@ Contents:
 
    intro
    1
+   2
 
 
 Indices and tables
