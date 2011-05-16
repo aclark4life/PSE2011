@@ -17,3 +17,5 @@ As such, the first lesson is about how this **documentation** was created using 
 .. _`virtualenv`: http://pypi.python.org/pypi/virtualenv
 .. _`zc.buildout`: http://pypi.python.org/pypi/zc.buildout/1.5.2
 .. _`Sphinx`: http://pypi.python.org/pypi/Sphinx
+
+After that, we'll move on to Plone.
