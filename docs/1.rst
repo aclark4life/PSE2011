@@ -37,10 +37,10 @@ Details
 This documentation was created via the following commands::
 
     $ git clone git@github.com:ACLARKNET/PSE2011.git    # create development area
-    $ virtualenv PSE2011                                
+    $ virtualenv PSE2011                                # optional
     $ cd PSE2011
-    $ bin/easy_install zc.buildout
-    $ bin/buildout init
+    $ bin/easy_install zc.buildout                      # or easy_install if no virtualenv
+    $ bin/buildout init                                 # or buildout init if no virtualenv
 
 At this point, ``buildout.cfg`` was edited to look like this::
 
@@ -63,8 +63,17 @@ At this point a Sphinx project exists and we can add and edit documentation usin
     $ git commit -a
     $ git push
 
+Takeaway
+--------
+
+* We use Python (and optionally virtualenv) to install software tools (zc.buildout, Sphinx) to do our work.
+* The zc.buildout choice here is only relevant because Plone uses zc.buildout.
+* Though we don't use Plone in this example, we will use it next.
+
 .. _`Python`: http://python.org
 .. _`virtualenv`: http://pypi.python.org/pypi/virtualenv
 .. _`zc.buildout`: http://pypi.python.org/pypi/zc.buildout/1.5.2
 .. _`Sphinx`: http://pypi.python.org/pypi/Sphinx
 .. _`Git`: http://git-scm.com/
+
+
