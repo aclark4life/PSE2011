@@ -43,12 +43,12 @@ About parts
 
 Parts are sections that require a ``recipe`` parameter.
 
+Sections and parameters
+-----------------------
+
+That's fine. But what are sections and parameters? We'll cover that in the next section.
+
 Takeway
 -------
 
 * Another major feature of zc.buildout is the ability to separate build tasks into isolated sections called *parts*.
-
-Sections and parameters
------------------------
-
-That's fine. But what are sections and parameters?
