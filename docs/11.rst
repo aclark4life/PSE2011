@@ -1,4 +1,19 @@
 
-Lesson #11
-==========
+Lesson #11: Installing p.a.theming
+==================================
 
+I.e. Add the ``plone.app.theming`` package to the ``eggs`` parameter of the ``plone.recipe.zope2instance`` section.
+
+Installation
+------------
+
+In ../11.cfg we have::
+
+    [buildout]
+    extends =
+        11.cfg
+    
+    [plone]
+    eggs += plone.app.theming
+
+Now run bin/buildout and restart Plone.
