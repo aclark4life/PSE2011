@@ -1,4 +1,18 @@
 
-Lesson #12
-==========
+Lesson #12: Installing c.r.backup
+=================================
+
+I.e. Add the ``backup`` section to the ``parts`` parameter of the ``buildout`` section, then add the ``backup`` section.
+
+Installation
+------------
+
+In ../12.cfg we have::
+
+    [buildout]
+    extends = http://dist.aclark.net/build/plone/4.1.x/zeo.cfg
+
+Now run bin/buildout and restart Plone.
+
+You'll notice we also added ZEO and some other things. We'll talk about that in the next section.
 
