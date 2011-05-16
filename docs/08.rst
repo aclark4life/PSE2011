@@ -42,6 +42,11 @@ The rest
 
 In general, there are any number of technologies and related terms that could potentially confuse new Plone users. Before you worry about such things, you should ask on a mailing list or `Stack Overflow`_ to see if it something worth understanding (e.g Python eggs) or not (e.g. DTML).
 
+Takeaway
+--------
+
+* The Plone stack can be overwhelming. Don't be intimidated, just make every effort to define and categorize anything that confuses you. E.g. a large number of "confusing buzzwords" can be attributed directly to Zope2 and it's age (i.e. some technogies like *DTML* have been deprecated, others like *Five* have come along in an attempt to "modernize" it).
+
 .. [1] Zope 3 the application server was renamed to Bluebream. Many other Zope 3 technologies now live under the Zope Toolkit umbrella, the most notable of which are zope.component and zope.interface.
 
 .. [2] More so for developers than end users.
