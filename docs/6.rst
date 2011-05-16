@@ -1,4 +1,49 @@
 
+Lesson #6: Installing Plone 
+===========================
 
-Lesson #6
-=========
+There are several ways to install Plone. If you are new to Plone, the installer for your platform is the best way.
+
+Buildout
+--------
+
+Let's take a look at how zc.buildout can be configured to install Plone::
+
+    [buildout]
+    allow-hosts =
+        *.plone.org
+        *.python.org
+    extensions = buildout.bootstrap
+    extends = http://dist.plone.org/release/4.1b2/versions.cfg
+    extends-cache = .
+    versions = versions
+    parts = plone
+    find-links = http://dist.plone.org/thirdparty/elementtree-1.2.7-20070827-preview.zip
+
+    [plone]
+    recipe = plone.recipe.zope2instance
+    user = admin:admin
+    eggs =
+        Pillow
+        Plone
+    zcml =
+
+    [versions]
+    distribute = 0.6.16
+    zc.buildout = 1.5.2
+
+Important parts
+---------------
+
+The majority of functionality is configured via the ``plone.recipe.zope2instance`` section::
+
+    [plone]
+    recipe = plone.recipe.zope2instance
+    …
+    eggs =
+        …
+        Plone
+    …
+
+Everything else is just details.
+

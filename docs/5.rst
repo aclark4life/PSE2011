@@ -31,8 +31,8 @@ Takeaway
 
 Yet another major zc.buildout feature is variable substitution.
 
-
 Real work
 ---------
 
 But enough about zc.buildout syntax and features! Now on to some real work.
+
