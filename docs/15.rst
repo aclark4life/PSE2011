@@ -51,6 +51,6 @@ We've not yet discussed Python in any detail. Python is the foundation on top of
 Takeaway
 --------
 
-* There are many subtly different ways to accomplish the same thing. Either understand what you are doing, or use the installer.
+* There are many subtly different ways to accomplish the same thing. Either understand what you are doing, or use the appropriate installer for your platform.
 
 
