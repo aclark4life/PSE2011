@@ -16,7 +16,41 @@ We've not yet discussed Python in any detail. Python is the foundation on top of
   * buildout 
   * bin/plone fg
 
-2. The other way:
+2. The other first way:
 
-  * foo
+  * Install Python
+  * Install Distribute
+  * Install Virtualenv
+  * virtualenv plone
+  * cd plone
+  * bin/easy_install zc.buildout
+  * bin/buildout init
+  
+  Now edit your buildout.cfg file, then:
+
+  * bin/buildout 
+  * bin/plone fg
+
+3. The second way:
+
+  * git clone https://github.com/ACLARKNET/PSE2011
+  * cd PSE2011
+  * python2.6 bootstrap.py -d
+  * bin/buildout
+  * bin/plone fg
+
+4. The other second way:
+
+  * git clone https://github.com/ACLARKNET/PSE2011
+  * virtualenv PSE2011
+  * cd PSE2011
+  * bin/python2.6 bootstrap.py -d
+  * bin/buildout
+  * bin/plone fg
+
+Takeaway
+--------
+
+* There are many subtly different ways to accomplish the same thing. Either understand what you are doing, or use the installer.
+
 
