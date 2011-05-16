@@ -1,4 +1,17 @@
 
+Lesson #8: The ugly truth: ZCML, old style products, and the rest
+=================================================================
 
-Lesson #8
-=========
+The ugly truth behind Lesson #7 is that there is more to the story. Namely, that of ZCML configuration. As of version 2.5 or so, Plone is a "Zope 3 application" (meaning that it uses technologies developed under the now defunct Zope 3 project) [1]_.
+
+What does that mean
+-------------------
+
+In most cases for end users, nothing.
+
+In some cases, it means you must configure the ``zcml`` parameter in the ``plone.recipe.zope2instance`` section for whatever add-on you want to use that does not take advantage of ``z3c.autoinclude``.
+
+
+
+
+_[1] Zope 3 the application server was renamed to Bluebream. Many other Zope 3 technologies live on under the Zope Toolkit umbrella; the most notable of which are zope.component and zope.interface.
