@@ -1,0 +1,5 @@
+
+Lesson #2: Installing Plone
+===========================
+
+As you can see from Lesson #1, we just installed Plone.
