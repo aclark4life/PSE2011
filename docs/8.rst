@@ -40,10 +40,12 @@ At some point in time (very roughly 2000-2005), Zope2 only supported add-on code
 The rest
 --------
 
-In general, there are any number of technologies and related terms that could potentially confuse new Plone users. Before you worry about such things, you should ask on a mailing list or Stack Overflow to see if it something worth understanding (e.g Python eggs) or not (e.g. DTML).
+In general, there are any number of technologies and related terms that could potentially confuse new Plone users. Before you worry about such things, you should ask on a mailing list or `Stack Overflow`_ to see if it something worth understanding (e.g Python eggs) or not (e.g. DTML).
 
 .. [1] Zope 3 the application server was renamed to Bluebream. Many other Zope 3 technologies now live under the Zope Toolkit umbrella, the most notable of which are zope.component and zope.interface.
 
 .. [2] More so for developers than end users.
 
 .. [3] See http://collective-docs.plone.org/tutorials/old-style-vs-new-style/packaging.html for more.
+
+.. _`Stack Overflow`: http://stackoverflow.com/questions/tagged/plone
