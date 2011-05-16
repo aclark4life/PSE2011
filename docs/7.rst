@@ -1,3 +1,56 @@
 
-Lesson #7
-=========
+Lesson #7: Installing Add-ons
+=============================
+
+You've just seen how we use zc.buildout to install Plone (plone.recipe.zope2instance does all the work). To install add-ons, we simply tell plone.recipe.zope2instance the name of the add-on(s) we want to install.
+
+The develop.cfg file provides a good example of how to do this::
+
+    [buildout]
+    extends = http://dist.aclark.net/build/plone/4.1.x/buildout.cfg
+    extensions += mr.developer
+    parts += omelette zopepy
+    auto-checkout =
+
+    [sources]
+
+    [omelette]
+    recipe = collective.recipe.omelette
+    eggs = ${plone:eggs}
+
+    [zopepy]
+    recipe = zc.recipe.egg
+    eggs = ${plone:eggs}
+    interpreter = zopepy
+
+    [plone]
+    debug-mode = on
+    verbose-security = on
+    eggs +=
+        Products.DocFinderTab
+        Products.PDBDebugMode
+        plone.reload
+
+Where the important parts are::
+
+    [plone]
+    …
+    eggs +=
+        Products.DocFinderTab
+        Products.PDBDebugMode
+        plone.reload
+
+Takeaway
+--------
+
+* Add-ons are simply package names added to the ``eggs`` parameter of the ``plone.recipe.zope2instance`` recipe section.
+
+* In the installers, you typically configure the ``eggs`` parameter within the [buildout] section (which is then referenced by the instance sections).
+
+* A minor feature of zc.buildout is the "+=" and "-=" (and >=) syntax that allow you to manipulate the contents of sections:
+
+    * += — Add the following parameter values to the existing parameter values
+    * -= — Subtract the following values from the existing parameter values
+    * <= — "extends" one section with the parameters from another [1]_.
+
+.. [1]:  See: http://svn.plone.org/svn/plone/plone.org/Products.PloneOrg/trunk/conf/production.cfg
