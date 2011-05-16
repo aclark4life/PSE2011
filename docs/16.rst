@@ -1,4 +1,8 @@
 
-Lesson #16: Version pinning
-===========================
+Lesson #16: Configuring known good sets
+=======================================
+
+We've not yet discussed configuring known good sets (KGS) AKA "version pinning" in any detail.
+
+XXX Finish me
 
