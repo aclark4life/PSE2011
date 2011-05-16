@@ -1,4 +1,5 @@
 
-Lesson #15
-==========
+Lesson #15: Python bootstrapping
+================================
+
 

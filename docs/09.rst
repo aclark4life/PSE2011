@@ -1,4 +1,18 @@
 
-Lesson #9
-=========
+Lesson #9: Install PloneFormGen
+===============================
 
+I.e. Add the Products.PloneFormGen package to the ``eggs`` parameter of the ``plone.recipe.zope2instance`` section.
+
+Installation
+------------
+
+In ../09.cfg we have::
+
+    [buildout]
+    extends = buildout.cfg
+
+    [plone]
+    eggs += Products.PloneFormGen
+
+Now run bin/buildout and restart Plone.

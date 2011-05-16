@@ -1,3 +1,22 @@
 
-Lesson #10
-==========
+Lesson #10: Installing dexterity
+================================
+
+I.e. Add the ``plone.app.dexterity`` package to the ``eggs`` parameter of the ``plone.recipe.zope2instance`` section.
+
+(Also extend the appropriate version config file)
+
+Installation
+------------
+
+In ../09.cfg we have::
+
+    [buildout]
+    extends = 
+        09.cfg
+        http://good-py.appspot.com/release/dexterity/1.0rc1
+    
+    [plone]
+    eggs += plone.app.dexterity
+
+Now run bin/buildout and restart Plone.
