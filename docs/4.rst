@@ -1,0 +1,29 @@
+
+Lesson #4: zc.buildout sections and parameters
+==============================================
+
+Another major zc.buildout feature is the ability to provide configuration via Windows INI style syntax.
+
+That syntax looks like this::
+
+
+    [section]
+    parameter = value
+
+
+Buildout
+--------
+
+The simplest zc.buildout configuration file is::
+
+    [buildout]
+    parts =
+
+
+Parts parameter values
+----------------------
+
+Parts parameter values are other parts e.g.::
+
+    [buildout]
+    parts = a b c

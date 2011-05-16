@@ -37,3 +37,14 @@ Parts
 -----
 
 There is only one part! And that part is configured to use the ``plone.recipe.zope2instance`` recipe.
+
+About parts
+-----------
+
+Parts are sections that require a ``recipe`` parameter.
+
+Sections and parameters
+-----------------------
+
+That's fine. But what are sections and parameters?
+
