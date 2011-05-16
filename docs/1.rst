@@ -76,7 +76,7 @@ Takeaway
 
 * We use Python (and optionally virtualenv) to install software tools (zc.buildout, Sphinx) to do our work.
 * The zc.buildout choice here is only relevant because Plone uses zc.buildout.
-* Though we don't use Plone in this example, we will use it next.
+* Though we don't use Plone in this example, we will use it soon enough.
 
 .. _`Python`: http://python.org
 .. _`virtualenv`: http://pypi.python.org/pypi/virtualenv
