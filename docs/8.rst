@@ -23,6 +23,15 @@ The latter (five.grok) is a technology that other technologies (like Dexterity) 
 
 In some cases though (i.e. when add-ons do not ask z3c.autoinclude to autoload their ZCML), it means you must configure the ``zcml`` parameter in the ``plone.recipe.zope2instance`` section for whatever add-on you want to use that does not take advantage of ``z3c.autoinclude``.
 
+Old style products
+------------------
+
+Another technology to be aware of is that of "old style products". That is, Python code that is not distributed within a Python package (e.g. distutils module, egg).
+
+At some point in time (very roughly 2000-2005), Zope2 only supported add-on code via "products". Products are Python code modules that Zope2 looks for on start up[3]_.
+
 _[1] Zope 3 the application server was renamed to Bluebream. Many other Zope 3 technologies now live under the Zope Toolkit umbrella, the most notable of which are zope.component and zope.interface.
 
 _[2] More so for developers than end users.
+
+_[3] See http://collective-docs.plone.org/tutorials/old-style-vs-new-style/packaging.html for more.
