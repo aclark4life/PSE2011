@@ -7,7 +7,11 @@ The inconvenient truth behind Lesson #7 is that there is more to the story. Name
 ZCML
 ----
 
-Zope configuration markup language
+Zope configuration markup language. E.g.::
+
+    <configure>
+        <!-- configuration goes here -->
+    </configure>
 
 What does this mean
 ~~~~~~~~~~~~~~~~~~~
@@ -31,5 +35,7 @@ Another technology to be aware of is that of "old style products". That is, Pyth
 At some point in time (very roughly 2000-2005), Zope2 only supported add-on code via "products". Products are Python code modules that Zope2 looks for on start up[3]_.
 
 .. [1] Zope 3 the application server was renamed to Bluebream. Many other Zope 3 technologies now live under the Zope Toolkit umbrella, the most notable of which are zope.component and zope.interface.
+
 .. [2] More so for developers than end users.
+
 .. [3] See http://collective-docs.plone.org/tutorials/old-style-vs-new-style/packaging.html for more.
