@@ -4,19 +4,19 @@ Lesson #15: Bootstrapping
 
 We've not yet discussed Python in any detail. Python is the foundation on top of which Plone is built. There are at least two distinct ways to install Plone on top of Python (not including the installers):
 
-    1. The first way:
+1. The first way:
 
-        * Install Python
-        * Install Distribute
-        * easy_install zc.buildout
-        * buildout init
-        
-        Now edit your buildout.cfg file, then:
-    
-        * buildout 
-        * bin/plone fg
+  * Install Python
+  * Install Distribute
+  * easy_install zc.buildout
+  * buildout init
+  
+  Now edit your buildout.cfg file, then:
 
-    2. The other way:
+  * buildout 
+  * bin/plone fg
 
-        * foo
+2. The other way:
+
+  * foo
 
