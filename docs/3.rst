@@ -1,4 +1,39 @@
 
-
 Lesson #3: zc.buildout parts
 ============================
+
+In the last lesson, we talked about zc.buildout *extends* which is a feature that allows you to span configuration across multiple files.
+
+Another major feature of zc.buildout is it allows you to isolate project components into logical units called *parts*.
+
+Each part is typically responsible for building a subset of your application.
+
+Let's look again at the configuration file we are using to build Plone::
+
+    [buildout]
+    allow-hosts =
+        *.plone.org
+        *.python.org
+    extensions = buildout.bootstrap
+    extends = http://dist.plone.org/release/4.1b2/versions.cfg
+    extends-cache = .
+    versions = versions
+    parts = plone
+    find-links = http://dist.plone.org/thirdparty/elementtree-1.2.7-20070827-preview.zip
+
+    [plone]
+    recipe = plone.recipe.zope2instance
+    user = admin:admin
+    eggs =
+        Pillow
+        Plone
+    zcml =
+
+    [versions]
+    distribute = 0.6.16
+    zc.buildout = 1.5.2
+
+Parts
+-----
+
+There is only one part! And that part is configured to use the ``plone.recipe.zope2instance`` recipe.
