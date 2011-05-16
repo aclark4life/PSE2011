@@ -19,7 +19,7 @@ What does this mean
 In most cases, for end users, nothing. While ZCML configuration is something you should understand the basics of, there are other technologies that are designed specifically to save you from having to understand ZCML in detail. They are:
 
 * Mainly z3c.autoinclude.
-* And to some extent, five.grok (Grok integration layer for Plone)[2]_.
+* And to some extent, five.grok (Grok integration layer for Plone) [2]_.
 
 The former (z3c.autoinclude) is a technology that Plone uses to auto-load ZCML for any package that requests it.
 
@@ -35,7 +35,7 @@ Old style products
 Another important technology to be aware of is that of "old style products". That is, Python code that is not distributed 
 within a Python package (e.g. distutils module, egg).
 
-At some point in time (very roughly 2000-2005), Zope2 only supported add-on code via "products". Products are Python code modules that Zope2 looks for on start up[3]_.
+At some point in time (very roughly 2000-2005), Zope2 only supported add-on code via "products". Products are Python code modules that Zope2 looks for on start up [3]_.
 
 The rest
 --------
