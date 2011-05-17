@@ -13,4 +13,6 @@
 
   <five:registerPackage package="." />
 
+  <include package=".browser" />
+
 </configure>
