@@ -1,0 +1,14 @@
+<html metal:use-macro="context/main_template/macros/master">
+
+
+<div metal:fill-slot="main">
+
+    <h1>
+    Boo yah!
+    </h1>
+
+    <span tal:content="view/my_package_view" />
+
+</div>
+
+</html>

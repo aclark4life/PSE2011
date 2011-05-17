@@ -1,2 +1,14 @@
-<configure>
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    >
+
+    <browser:page
+       for="*"
+       name="mypackage"
+       class=".mypackage.MyPackage"
+       template="mypackage.pt"
+       permission="zope2.View"
+       />
+
 </configure>
